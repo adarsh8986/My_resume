@@ -1,0 +1,115 @@
+/*---------- Medium Layout: 1280px.------------ */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .single-timeline .timeline-box{
+        margin-left: 50px;
+    }
+    .single-timeline:nth-child(2n) .timeline-box{
+        margin-right: 50px;
+    }
+    .timeline-divider {
+        height: 855px;
+    }
+    .education-inner .timeline-divider {
+        height: 520px;
+    }
+    .team-overlay {
+        padding: 15px 5px 0;
+    }
+}
+/*---------------------
+Tablet Layout: 768px
+-----------------------*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single-timeline .timeline-box{
+        margin-left: 25px;
+    }
+    .single-timeline:nth-child(2n) .timeline-box{
+        margin-right: 25px;
+    }
+    .timeline-divider {
+        height: 945px;
+    }
+    .education-inner .timeline-divider {
+        height: 540px;
+    }
+    .contact-form {
+        margin-bottom: 30px;
+    }
+    .team-overlay {
+        padding: 150px 50px 0;
+    }
+    .team-member-image img {
+        height: 394px;
+    }
+}
+
+
+
+/*---------------------
+Mobile Layout: 320px.
+-------------------------*/
+@media only screen and (max-width: 767px) {
+    .single-timeline .timeline-box{
+        margin-left: 25px;
+    }
+    .single-timeline:nth-child(2n) .timeline-box{
+        margin-right: 25px;
+    }
+
+    .timeline-box .arrow {
+        display: none;
+    }
+    .timeline-box .dot {
+        display:none;
+    }
+    .timeline-divider {
+        display: none;
+    }
+    .testimonial-description {
+    text-align: center;
+    padding: 10px 25px;
+    }
+    .contact-form {
+    margin-bottom: 30px;
+    }
+    .team-overlay {
+        padding: 50px 25px 0;
+    }
+    .single-service {
+        margin-bottom: 50px;
+    }
+    .our-skills {
+        margin-top: 20px;
+    }
+    .col-md-4.single-portfolio {
+        padding: auto;
+    }
+    .portfolio-category ul li {
+        margin-bottom: 5px;
+    }
+    .team-member {
+        margin-bottom: 30px;
+    }
+    .slide-text-tablecell h2 {
+        font-size: 3em;
+    }
+    .about-us {
+        padding: 20px 20px 40px;
+    }
+    .footer-social-icons ul,
+    .footer-copyright p {
+        text-align: center;
+    }
+    
+    .team-section.padding {
+        padding: 40px 0 30px;
+    }
+}
+/*--------------------
+Tablet Layout: 768px
+----------------------*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .team-overlay {
+        padding: 200px 100px 0;
+    }
+}
